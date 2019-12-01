@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>我的相册</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/lightgallery.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/dmaku.css" />
+</head>
+<body class="home">
+<div class="demo-gallery">
+	<ul id="lightgallery" class="list-unstyled row">
+		<li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg" data-sub-html="<h4></h4><p>课程设计</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+			<a href="">
+				<img class="img-responsive" src="img/thumb-1.jpg" alt="Thumb-1">
+			</a>
+		</li>
+		<li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" data-sub-html="<h4></h4><p>课程设计</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+			<a href="">
+				<img class="img-responsive" src="img/thumb-2.jpg" alt="Thumb-2">
+			</a>
+		</li>
+		<li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800" data-src="img/13-1600.jpg" data-sub-html="<h4></h4<p>课程设计</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+			<a href="">
+				<img class="img-responsive" src="img/thumb-13.jpg" alt="Thumb-3">
+			</a>
+		</li>
+		<li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4></h4><p>课程设计</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+			<a href="">
+				<img class="img-responsive" src="img/thumb-4.jpg" alt="Thumb-4">
+			</a>
+		</li>
+	</ul>
+</div>
+
+<script src="js/picturefill.min.js"></script>
+<script src="dist/js/lightgallery.js"></script>
+<script src="js/lg-pager.js"></script>
+<script src="js/lg-autoplay.js"></script>
+<script src="js/lg-fullscreen.js"></script>
+<script src="js/lg-zoom.js"></script>
+<script src="js/lg-share.js"></script>
+<script>
+	lightGallery(document.getElementById('lightgallery'));
+</script>
+
+</body>
+</html>
